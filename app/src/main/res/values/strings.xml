@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Seed GST</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="title_activity_aboutx">Aboutx</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_about">Seed GST</string>
+    <string name="collapsed">collapsed: %s</string>
+    <string name="expanded">expanded: %s</string>
+</resources>

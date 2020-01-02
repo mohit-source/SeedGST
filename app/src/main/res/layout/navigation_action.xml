@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/nav_action"
+    android:background="#243355">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Seed GST"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:gravity="center|left"/>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center|right"
+        android:layout_marginRight="10dp">
+        <pl.droidsonroids.gif.GifImageView
+
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/xstar"
+            android:id="@+id/gif"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Ask Question"
+            android:gravity="right"
+            android:textSize="5dp"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.Toolbar>
+
+
+

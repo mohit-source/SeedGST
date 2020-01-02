@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item android:id="@+id/home"
+        android:title="Home"
+        android:icon="@mipmap/ic_home_black_24dp"/>
+
+    <item android:id="@+id/profile"
+        android:title="Profile"
+        android:icon="@drawable/ic_account_circle_black_24dp"/>
+
+    <item android:id="@+id/about"
+        android:title="About us"
+        android:icon="@mipmap/ic_event_black_24dp"/>
+
+    <item android:id="@+id/contact"
+        android:title="Contact Us"
+        android:icon="@mipmap/ic_location_on_black_24dp"/>
+
+    <item android:id="@+id/faq"
+        android:title="FAQ's"
+        android:icon="@mipmap/ic_help_black_24dp"/>
+
+
+
+    <item android:id="@+id/gstimpdate"
+        android:title="GST Important Dates"
+        android:icon="@mipmap/ic_date_range_black_24dp"/>
+    <item android:id="@+id/gstchrt"
+        android:title="GST Charts"
+        android:icon="@mipmap/ic_insert_chart_black_24dp"/>
+    <item android:id="@+id/gstretrn"
+        android:title="GST Returns"
+        android:icon="@mipmap/ic_assignment_return_black_24dp"/>
+
+    <item android:id="@+id/howwork"
+        android:title="How App Works?"
+        android:icon="@mipmap/ic_group_work_black_24dp"/>
+    <item android:id="@+id/terms"
+        android:title="Terms and Condition"
+        android:icon="@mipmap/ic_error_black_24dp"/>
+    <item android:id="@+id/signout"
+        android:title="Sign out"
+        android:icon="@mipmap/ic_lock_black_24dp"/>
+
+
+</menu>

@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gst.pcp.best.impdates"
+    android:id="@+id/drawerLayouttt"
+    android:background="#e6e6e6">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <include android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        layout="@layout/navigation_action"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_margin="20dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:background="@drawable/chat_rounded_rect_bg">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Important Dates"
+                    android:textSize="15dp"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center"
+                    android:gravity="center"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_marginTop="20dp">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="@color/green">
+
+                        <TextView
+                            android:id="@+id/gstrbone"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Wait for Network"
+                            android:gravity="center"
+                            android:textSize="15dp"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="50dp"
+                        android:background="@color/white">
+
+                        <TextView
+                            android:id="@+id/dateone"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Wait for Network"
+                            android:gravity="center"
+                            android:textSize="15dp"
+                            android:textStyle="bold"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="@color/green">
+
+                        <TextView
+                            android:id="@+id/gstrbtwo"
+
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Wait for Network"
+                            android:gravity="center"
+                            android:textSize="15dp"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="50dp"
+                        android:background="@color/white">
+
+                        <TextView
+                            android:id="@+id/datetwo"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Wait for Network"
+                            android:gravity="center"
+                            android:textSize="15dp"
+                            android:textStyle="bold"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Quarterly return for composition dealers"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:layout_margin="15dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="#6474a0">
+
+                        <TextView
+                            android:id="@+id/gstrbthree"
+
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Wait for Network"
+                            android:gravity="center"
+                            android:textSize="15dp"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="50dp"
+                        android:background="@color/white">
+
+                        <TextView
+                            android:id="@+id/datethree"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Wait for Network"
+                            android:gravity="center"
+                            android:textSize="15dp"
+                            android:textStyle="bold"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="#6474a0">
+
+                        <TextView
+                            android:id="@+id/gstrbfour"
+
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Wait for Network"
+                            android:gravity="center"
+                            android:textSize="15dp"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="50dp"
+                        android:background="@color/white">
+
+                        <TextView
+                            android:id="@+id/datefour"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Wait for Network"
+                            android:gravity="center"
+                            android:textSize="15dp"
+                            android:textStyle="bold"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Quarterly return for registered persons with aggregate turnover up to Rs. 1.50 crores"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:layout_margin="15dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="#51a066">
+
+                        <TextView
+                            android:id="@+id/gstrbfive"
+
+
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Wait for Network"
+                            android:gravity="center"
+                            android:textSize="15dp"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="50dp"
+                        android:background="@color/white">
+
+                        <TextView
+                            android:id="@+id/datefive"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Wait for Network"
+                            android:gravity="center"
+                            android:textSize="15dp"
+                            android:textStyle="bold"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="#51a066">
+
+                        <TextView
+                            android:id="@+id/gstrbsix"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="Wait for Network"
+                            android:textColor="@color/white"
+                            android:textSize="15dp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="50dp"
+                        android:background="@color/white">
+
+                        <TextView
+                            android:id="@+id/datesix"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Wait for Network"
+                            android:gravity="center"
+                            android:textSize="15dp"
+                            android:textStyle="bold"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Monthly return for registered persons with aggregate turnover of more than Rs. 1.50 crores"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:layout_margin="15dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="@color/purple">
+
+                        <TextView
+                            android:id="@+id/gstrbseven"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Wait for Network"
+                            android:gravity="center"
+                            android:textSize="15dp"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="50dp"
+                        android:background="@color/white">
+
+                        <TextView
+                            android:id="@+id/dateseven"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Wait for Network"
+                            android:gravity="center"
+                            android:textSize="15dp"
+                            android:textStyle="bold"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="@color/purple">
+
+                        <TextView
+                            android:id="@+id/gstrbeight"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Wait for Network"
+                            android:gravity="center"
+                            android:textSize="15dp"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="50dp"
+                        android:background="@color/white">
+
+                        <TextView
+                            android:id="@+id/dateeight"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Wait for Network"
+                            android:gravity="center"
+                            android:textSize="15dp"
+                            android:textStyle="bold"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/knowdates"
+                    android:text="Know More"
+                    android:textSize="15dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@color/blue"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="30dp"/>
+
+
+            </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+    <android.support.design.widget.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:menu="@menu/menu"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/navigation_header"
+        android:id="@+id/navigation_view">
+    </android.support.design.widget.NavigationView>
+</android.support.v4.widget.DrawerLayout>
